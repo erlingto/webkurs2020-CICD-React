@@ -35,4 +35,4 @@ const MapMenu = (props) => {
     )
 }
 
-export default MapStyleMenu
+export default MapMenu
