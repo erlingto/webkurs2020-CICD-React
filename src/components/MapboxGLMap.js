@@ -31,7 +31,10 @@ const MapboxGLMap = () => {
     if (!map) initializeMap({ setMap, mapContainer });
   }, [map]);
 
-  return <div ref={el => (mapContainer.current = el)} style={styles} />;
+  return <div> 
+  <MapMenu setBackgroundLayerID = {setBackgroundLayerID} setBackgroundLayerID = {BackgroundLayerID}/>
+  <div ref={el => (mapContainer.current = el)} style={styles} />
+  </div>
 };
 
 export default MapboxGLMap;
