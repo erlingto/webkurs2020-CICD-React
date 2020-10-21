@@ -5,6 +5,7 @@ const menuStyle = {
     background: "white",
     padding: 10,
     zIndex: "2",
+    top: 200,
     display: "flex",
 };
 
