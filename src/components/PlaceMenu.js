@@ -5,13 +5,13 @@ const menuStyle = {
     background: "white",
     padding: 10,
     zIndex: "2",
-    top: 200,
+    top: 120,
     display: "flex",
 };
 
 const placesLayers = [
     { center: [10.408773, 63.422091], name: "LOL" },
-    { center: [10.408773, 63.422091], name: "TOO" },
+    { center: [10.445, 11.025], name: "Oslo" },
     { center: [10.408773, 63.422091], name: "Da" },
     { center: [10.408773, 63.422091], name: "Satee" },
 ];
