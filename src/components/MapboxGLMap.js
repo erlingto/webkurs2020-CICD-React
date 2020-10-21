@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapMenu from "./MapMenu";
+import LocationMenu from "./PlaceMenu";
 
 const styles = {
   width: "100%",
@@ -36,6 +37,7 @@ const MapboxGLMap = () => {
 
   return (
     <div>
+      <LocationMenu setPlacesLayerID={setPlacesLayersID} PlacesLayerID={PlacesLayerID}/>
       <MapMenu setbackgroundLayerID={setbackgroundLayerID} backgroundLayerID={backgroundLayerID}/>
       <div ref={(el) => (mapContainer.current = el)} style={styles} />
     </div>
