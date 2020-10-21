@@ -19,7 +19,7 @@ const MapboxGLMap = () => {
     const initializeMap = ({ setMap, mapContainer }) => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
-        style: "mapbox://styles/mapbox/${backgroundLayerID}", // stylesheet location
+        style: 'mapbox://styles/mapbox/${backgroundLayerID}', // stylesheet location
         center: [10.408773,63.422091],
         zoom: 10
       });
@@ -37,9 +37,12 @@ const MapboxGLMap = () => {
   return( 
   <div> 
     <MapMenu setBackgroundLayerID = {setBackgroundLayerID} backgroundLayerID = {backgroundLayerID}/>
-    <div ref={el => (mapContainer.current = el)} style={styles} />
+    <div ref={(el) => (mapContainer.current = el)} style={styles} />
   </div>
   );
 };
 
 export default MapboxGLMap;
+
+
+
