@@ -14,7 +14,7 @@ const placesLayers = [
     { center: [10.445, 11.025], name: "Nigeria" },
     { center: [9.6515097, 59.6693196], name: "Kongsberg" },
     { center: [11.4096629, 62.4151857], name: "Os" },
-    { center: [18.3096629, -64.825], name: "Jeffrey Epstein Island" },
+    { center: [-64.825,18.3096629], name: "Jeffrey Epstein Island" },
 
 ];
 
