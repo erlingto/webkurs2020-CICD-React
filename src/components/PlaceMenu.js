@@ -10,10 +10,12 @@ const menuStyle = {
 };
 
 const placesLayers = [
-    { center: [10.408773, 63.422091], name: "LOL" },
-    { center: [10.445, 11.025], name: "Oslo" },
-    { center: [10.408773, 63.422091], name: "Da" },
-    { center: [10.408773, 63.422091], name: "Satee" },
+    { center: [10.408773, 63.422091], name: "Trondheim" },
+    { center: [10.445, 11.025], name: "Nigeria" },
+    { center: [9.6515097, 59.6693196], name: "Kongsberg" },
+    { center: [11.4096629, 62.4151857], name: "Os" },
+    { center: [18.3096629, -64.825], name: "Jeffrey Epstein Island" },
+
 ];
 
 const LocationMenu = (props) => {
