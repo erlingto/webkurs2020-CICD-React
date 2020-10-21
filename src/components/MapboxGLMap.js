@@ -13,7 +13,7 @@ const styles = {
 const MapboxGLMap = () => {
   const [map, setMap] = useState(null);
   const [backgroundLayerID, setbackgroundLayerID] = useState("streets-v11");
-  const [PlacesLayerID, setPlacesLayerID] = useState[10.408773, 63.422091];
+  const [PlacesLayerID, setPlacesLayerID] = useState([10.408773, 63.422091]);
   const mapContainer = useRef(null);
 
   useEffect(() => {
@@ -34,7 +34,8 @@ const MapboxGLMap = () => {
 
     if (!map) initializeMap({ setMap, mapContainer });
     if (map) map.setStyle("mapbox://styles/mapbox/" + backgroundLayerID);
-  }, [backgroundLayerID, map]);
+    if (map) map.setCenter(PlacesLayerID);
+  }, [backgroundLayerID, PlacesLayerID, map]);
 
   return (
     <div>
