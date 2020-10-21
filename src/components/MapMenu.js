@@ -25,7 +25,7 @@ const MapMenu = (props) => {
                         type="radio"
                         name="rtoggle"
                         value={backgroundLayer.id}
-                        onClick={() => props.setBackgroundLayerID(backgroundLayer.id)}
+                        onClick={() => props.setbackgroundLayerID(backgroundLayer.id)}
                         defaultChecked={backgroundLayer.id === props.backgroundLayerID}
                     />
                     <label>{backgroundLayer.name}</label>
