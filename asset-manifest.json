@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css",
-    "main.js": "/webkurs2020-CICD-React/static/js/main.38f7a850.chunk.js",
-    "main.js.map": "/webkurs2020-CICD-React/static/js/main.38f7a850.chunk.js.map",
+    "main.js": "/webkurs2020-CICD-React/static/js/main.99510312.chunk.js",
+    "main.js.map": "/webkurs2020-CICD-React/static/js/main.99510312.chunk.js.map",
     "runtime-main.js": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js",
     "runtime-main.js.map": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js.map",
     "static/css/2.0a5b19c0.chunk.css": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css",
-    "static/js/2.e4d219f3.chunk.js": "/webkurs2020-CICD-React/static/js/2.e4d219f3.chunk.js",
-    "static/js/2.e4d219f3.chunk.js.map": "/webkurs2020-CICD-React/static/js/2.e4d219f3.chunk.js.map",
+    "static/js/2.7d0413df.chunk.js": "/webkurs2020-CICD-React/static/js/2.7d0413df.chunk.js",
+    "static/js/2.7d0413df.chunk.js.map": "/webkurs2020-CICD-React/static/js/2.7d0413df.chunk.js.map",
     "index.html": "/webkurs2020-CICD-React/index.html",
-    "precache-manifest.2dc4fb76950108932b3ab05d8bdb3a8a.js": "/webkurs2020-CICD-React/precache-manifest.2dc4fb76950108932b3ab05d8bdb3a8a.js",
+    "precache-manifest.7aca72b1a8374bee77e63e9c17741625.js": "/webkurs2020-CICD-React/precache-manifest.7aca72b1a8374bee77e63e9c17741625.js",
     "service-worker.js": "/webkurs2020-CICD-React/service-worker.js",
     "static/css/2.0a5b19c0.chunk.css.map": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.e4d219f3.chunk.js.LICENSE.txt": "/webkurs2020-CICD-React/static/js/2.e4d219f3.chunk.js.LICENSE.txt"
+    "static/js/2.7d0413df.chunk.js.LICENSE.txt": "/webkurs2020-CICD-React/static/js/2.7d0413df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.89e14c0b.js",
     "static/css/2.0a5b19c0.chunk.css",
-    "static/js/2.e4d219f3.chunk.js",
+    "static/js/2.7d0413df.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.38f7a850.chunk.js"
+    "static/js/main.99510312.chunk.js"
   ]
 }
