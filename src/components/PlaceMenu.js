@@ -3,7 +3,7 @@ import React from 'react'
 const menuStyle = {
     position: "absolute",
     background: "white",
-    padding: 10,
+    padding: 300,
     zIndex: "1",
     display: "flex",
 };
