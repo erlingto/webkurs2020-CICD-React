@@ -6,12 +6,12 @@ import MapMenu from "./MapMenu";
 const styles = {
   width: "100%",
   height: "calc(100vh - 80px)",
-  position: "absolute"
+  position: "absolute",
 };
 
 const MapboxGLMap = () => {
   const [map, setMap] = useState(null);
-  const [backgroundLayerID, setBackgroundLayerID] = useState("streets-v11");
+  const [backgroundLayerID, setbackgroundLayerID] = useState("streets-v11");
   const mapContainer = useRef(null);
 
   useEffect(() => {
@@ -19,9 +19,9 @@ const MapboxGLMap = () => {
     const initializeMap = ({ setMap, mapContainer }) => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
-        style: 'mapbox://styles/mapbox/${backgroundLayerID}', // stylesheet location
-        center: [10.408773,63.422091],
-        zoom: 10
+        style: `mapbox://styles/mapbox/${backgroundLayerID}`,
+        center: [10.408773, 63.422091],
+        zoom: 10,
       });
 
       map.on("load", () => {
@@ -34,15 +34,12 @@ const MapboxGLMap = () => {
     if (map) map.setStyle("mapbox://styles/mapbox/" + backgroundLayerID);
   }, [backgroundLayerID, map]);
 
-  return( 
-  <div> 
-    <MapMenu setBackgroundLayerID = {setBackgroundLayerID} backgroundLayerID = {backgroundLayerID}/>
-    <div ref={(el) => (mapContainer.current = el)} style={styles} />
-  </div>
+  return (
+    <div>
+      <MapMenu setbackgroundLayerID={setbackgroundLayerID} backgroundLayerID={backgroundLayerID}/>
+      <div ref={(el) => (mapContainer.current = el)} style={styles} />
+    </div>
   );
 };
 
 export default MapboxGLMap;
-
-
-
