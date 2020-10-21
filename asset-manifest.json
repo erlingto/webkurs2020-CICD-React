@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css",
-    "main.js": "/webkurs2020-CICD-React/static/js/main.1f995e76.chunk.js",
-    "main.js.map": "/webkurs2020-CICD-React/static/js/main.1f995e76.chunk.js.map",
+    "main.js": "/webkurs2020-CICD-React/static/js/main.80635366.chunk.js",
+    "main.js.map": "/webkurs2020-CICD-React/static/js/main.80635366.chunk.js.map",
     "runtime-main.js": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js",
     "runtime-main.js.map": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js.map",
     "static/css/2.0a5b19c0.chunk.css": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css",
     "static/js/2.7d0413df.chunk.js": "/webkurs2020-CICD-React/static/js/2.7d0413df.chunk.js",
     "static/js/2.7d0413df.chunk.js.map": "/webkurs2020-CICD-React/static/js/2.7d0413df.chunk.js.map",
     "index.html": "/webkurs2020-CICD-React/index.html",
-    "precache-manifest.e47301ef0ae2d2e541229687d0b786d8.js": "/webkurs2020-CICD-React/precache-manifest.e47301ef0ae2d2e541229687d0b786d8.js",
+    "precache-manifest.31d6262558624f45fc46bc99fd8f3d16.js": "/webkurs2020-CICD-React/precache-manifest.31d6262558624f45fc46bc99fd8f3d16.js",
     "service-worker.js": "/webkurs2020-CICD-React/service-worker.js",
     "static/css/2.0a5b19c0.chunk.css.map": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css.map",
     "static/css/main.69eda509.chunk.css.map": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.0a5b19c0.chunk.css",
     "static/js/2.7d0413df.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.1f995e76.chunk.js"
+    "static/js/main.80635366.chunk.js"
   ]
 }
