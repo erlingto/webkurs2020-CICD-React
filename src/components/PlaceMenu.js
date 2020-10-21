@@ -19,12 +19,12 @@ const LocationMenu = (props) => {
     return (
         <div style={menuStyle}>
             {placesLayers.map((placesLayer) => (
-                <div key={PlacesLayer.id}>
+                <div key={placesLayer.id}>
                     <input
-                        id={PlacesLayer.id}
+                        id={placesLayer.id}
                         type="radio"
                         name="rtoggle"
-                        value={PlacesLayer.id}
+                        value={placesLayer.id}
                         onClick={() => props.setPlacesLayerID(placesLayer.id)}
                         defaultChecked={placesLayer.id === props.placesLayerID}
                     />

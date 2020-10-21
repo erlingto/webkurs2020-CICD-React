@@ -13,6 +13,7 @@ const styles = {
 const MapboxGLMap = () => {
   const [map, setMap] = useState(null);
   const [backgroundLayerID, setbackgroundLayerID] = useState("streets-v11");
+  const [PlacesLayerID, setPlacesLayerID] = useState[10.408773, 63.422091];
   const mapContainer = useRef(null);
 
   useEffect(() => {
@@ -21,7 +22,7 @@ const MapboxGLMap = () => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: `mapbox://styles/mapbox/${backgroundLayerID}`,
-        center: [10.408773, 63.422091],
+        center: PlacesLayerID,
         zoom: 10,
       });
 
@@ -37,7 +38,7 @@ const MapboxGLMap = () => {
 
   return (
     <div>
-      <LocationMenu setPlacesLayerID={setPlacesLayersID} PlacesLayerID={PlacesLayerID}/>
+      <LocationMenu setPlacesLayerID={setPlacesLayerID} PlacesLayerID={PlacesLayerID}/>
       <MapMenu setbackgroundLayerID={setbackgroundLayerID} backgroundLayerID={backgroundLayerID}/>
       <div ref={(el) => (mapContainer.current = el)} style={styles} />
     </div>
